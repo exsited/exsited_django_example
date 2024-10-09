@@ -82,7 +82,8 @@ cd djangoSDK
 ```
 ### 4. Make a package for commonData
 
-Make a package named "common" and inside that create a python file named "common_data" .
+Make a package named "common" and inside that create a python file named "common_data" or you can create a directory named "common" and create a "__init__.py" to make the directory as a python package
+
 
 navigate to `djangoSDK/common/common_data.py` update the following credentials with your details:
 
