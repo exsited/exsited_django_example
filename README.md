@@ -94,10 +94,11 @@ class CommonData:
     @staticmethod
     def get_request_token_dto():
         return RequestTokenDTO(
+            grantType="[GRANT_TYPE]",
             clientId = 	"[YOUR_CLIENT_ID]",
             clientSecret = "[YOUR_CLIENT_SECRET]",
             redirectUri = "[YOUR_REDIRECT_URI]",
-            ExsitedUrl = "[YOUR_EXSITED_SERVER_URL]"
+            exsitedUrl = "[YOUR_EXSITED_SERVER_URL]"
         )
 ```
 
