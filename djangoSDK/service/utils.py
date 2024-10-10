@@ -3,12 +3,9 @@ import MySQLdb
 from datetime import timedelta, datetime
 import calendar
 
-from exsited.common.ab_exception import ABException
-from exsited.exsited.exsited_sdk import ExsitedSDK
 from exsited.exsited.order.dto.usage_dto import UsageCreateDTO, UsageDataDTO
 from service.exsited_service import ExsitedService
 from service.order_service import OrderService
-from common.common_data import CommonData
 
 
 def connect_to_db():
